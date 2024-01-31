@@ -77,7 +77,7 @@ export default function Footer() {
 						Контакты
 					</h6>
 					<div className='flex'>
-					<a href='tel:80296097085' className='text-primary font-bold sd:text-3xl xz:text-xl mr-2'>
+					<a href='tel:80296097085' className=' font-bold sd:text-3xl xz:text-2xl mr-2'>
 						8 029 609-70-85
 						</a>
 						<Image src='/svg/a1.svg' alt='Мобильный оператор А1' width={20} height={20} />

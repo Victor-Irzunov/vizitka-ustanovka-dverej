@@ -18,7 +18,7 @@ export default function Home() {
     document.getElementById("my_modal_3").close();
   };
   return (
-    <main className="">
+    <main className="" id="main">
       <section className=''>
         <div className="hero min-h-screen" style={{ backgroundImage: 'url("/fon/fon.webp")' }}>
           <div className="hero-overlay bg-opacity-60"></div>

@@ -33,7 +33,7 @@ const Price = () => {
 				<tbody>
 					{dataPrice.map((item, index) => (
 						<tr key={index}>
-							<td className="border px-4 py-2">{item.work}</td>
+							<td className="border px-4 py-2 text-left">{item.work}</td>
 							<td className="border px-4 py-2">{item.price}</td>
 						</tr>
 					))}
