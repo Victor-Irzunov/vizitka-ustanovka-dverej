@@ -25,16 +25,15 @@ export default function Home() {
           <div className="hero-content text-center text-secondary">
             <div className="sd:max-w-2xl xz:max-w-full">
               <h1 className="mb-5 sd:text-7xl xz:text-4xl font-bold">
-                Установка дверей <span className="text-primary block">в Минске</span>
+                Установка межкомнатных дверей <span className="text-primary block">в Минске</span>
               </h1>
               <p className="mb-5 text-base xz:text-sm text-white/80 font-normal xz:font-light">
-                Опытные мастера нашей компании предоставляют профессиональные услуги по установке дверей любой сложности. Мы заботимся о качестве каждого этапа работы, начиная с консультации и выбора подходящего варианта двери до монтажа и последующего обслуживания.
+                Мастер, имеющий нужные навыки, накопленный опыт и весь набор профессионального инструмента, выполнит работу качественно и в срок.
               </p>
-
 
               <button
                 className="btn btn-primary text-white sd:mt-10 xz:mt-4 sd:text-xl xz:text-lg"
-                onClick={()=>handleOrderClick('Заказать звонок')}
+                onClick={() => handleOrderClick('Заказать звонок')}
               >
                 Заказать звонок
               </button>
